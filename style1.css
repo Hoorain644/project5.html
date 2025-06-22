@@ -1,0 +1,55 @@
+/* *{ */
+    /* padding: 0px; */
+    /* margin: 0px;/ */
+    /* color: white; */
+/* } */
+/* #navbar{ */
+    /* height: 60px; */
+    /* background-color: #0f1100; */
+
+/* } */
+/* button{ */
+    /* background-color: #f08804; */
+/* } */
+/* #logo{ */
+    /* color: #f08804; */
+    /* font-size: 25px; */
+/* } */
+/* a{ */
+    /* margin-right: 150px; */
+    /* text-decoration: none; */
+/* } */
+/*  */
+.navbar{
+    background-color: pink;
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    margin-right: 150px;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+   
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    
+
+}

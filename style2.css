@@ -1,0 +1,87 @@
+/* div{ */
+    /* height: 50px; */
+    /* width: 50px; */
+    /* background-color: pink; */
+
+/* } */
+/* @media (width:600px){ */
+ /* div{ */
+    /* background-color: red; */
+    
+/* } */
+/* } */
+/* @media (min-width:600px) */
+/* { */
+/* div{ */
+    /* background-color: green; */
+    
+/* } */
+/* } */
+/* @media (min-width:200px) and (max-width:300px){ */
+    /* div{ */
+        /* background-color: blue; */
+
+    /* } */
+/* }  */
+
+/* div{ */
+    /* height: 100px; 
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate; 
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: reverse; */
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+     transition-delay: 1s; 
+     /* transform: rotate(45deg); 
+     /* transform: scale(2); 
+     animation: colorAnimate 2s ease-in 0s normal;
+
+}
+div:hover{
+    /* background-color: red; 
+    font-size: 20px;
+     transform: translate(-200px); */
+/* } */
+/* div:active{ */
+    /* background-color: pink; */
+/* } */
+/* @keyframes colorAnimate{ */
+    /* 0%{ 
+        left: 0px; background-color: yellow;
+    }
+    50%{
+        left: 200px; background-color: brown;
+    }
+    100%{
+        background-color: blue;
+    /* } */
+/* } */
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 20px solid aqua;
+    border-top: 20px solid yellow ;
+    animation-name: spinAnimatE 1s ease-in 0s infinite normal;
+  
+
+}
+@keyframes spinAnimatE{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
